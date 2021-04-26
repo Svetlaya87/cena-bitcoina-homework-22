@@ -1,5 +1,5 @@
 
-let result=0;
+
 
 function action() {
 
@@ -38,8 +38,9 @@ function action() {
     }
 
 
-    console.log(` Максимальная цена биткоина ${profitMax}`);
-    result.innerHTML= ` Максимальная цена биткоина ${profitMax}`;
+    console.log(` Максимальная прибыль биткоина ${profitMax} долл.`);
+    
+    result.innerHTML=` Максимальная прибыль биткоина ${profitMax} долл.`;
 
 }
 
